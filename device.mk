@@ -18,6 +18,8 @@ $(call inherit-product, vendor/mediatek/ims/ims.mk)
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/everpal/everpal-vendor.mk)
 
+$(call inherit-product, device/xiaomi/miuicamera-everpal/device.mk)
+
 # Dolby
 $(call inherit-product, hardware/dolby/dolby.mk)
 

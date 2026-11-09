@@ -187,3 +187,5 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 
 # Inherit the proprietary files
 include vendor/xiaomi/everpal/BoardConfigVendor.mk
+
+include device/xiaomi/miuicamera-everpal/BoardConfig.mk
