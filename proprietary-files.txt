@@ -951,6 +951,10 @@ vendor/lib64/libcameracustom.camera.isp.so|d0efd95192e2f53f3a0bc52dd452f85bb37e2
 vendor/lib64/libcameracustom.lens.so|47b0b8341a4d6f244fc725532d7e24535c14ffe0
 vendor/lib64/libcameracustom.so|d22b4402c584882a6e5b052e7a879e2661d70db8
 vendor/lib64/libcameracustom_all_sensor_modules.so|f0b565ecda72cbb6bb9fafc250390f950b92455a
+
+# Libutils
+system/lib64/libutils.so:vendor/lib64/libutils_mtk.so;FIX_SONAME
+
 vendor/lib64/libmialgoengine.so|3d1d68049250a6c212504e2bb1cf36cf77fa3faa
 vendor/lib64/libmtkcam.logicalmodule.so|733f5f7227c7e0147a0530a6df9baa3a86be8893
 vendor/lib64/libmtkcam_3rdparty.customer.so|bd200b980512b6a4e95a28322bfaacc9ff1a01a9

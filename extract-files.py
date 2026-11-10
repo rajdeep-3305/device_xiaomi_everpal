@@ -105,6 +105,10 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('AHardwareBuffer_lock')
         .clear_symbol_version('AHardwareBuffer_release')
         .clear_symbol_version('AHardwareBuffer_unlock'),
+    'vendor/lib64/libmialgoengine.so': blob_fixup()
+        .replace_needed('libutils.so', 'libutils_mtk.so'),
+    'vendor/lib64/libutils_mtk.so': blob_fixup()
+        .sig_replace('68 00 00 90 08 F9 44 F9 68 03 00 B5', '03 00 00 14'),
     'vendor/lib64/libgoodixhwfingerprint.so': blob_fixup()
         .replace_needed('libvendor.goodix.hardware.biometrics.fingerprint@2.1.so', 'vendor.goodix.hardware.biometrics.fingerprint@2.1.so'),
     'vendor/lib64/libmnl-v30.so' : blob_fixup()
