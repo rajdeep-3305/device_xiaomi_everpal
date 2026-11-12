@@ -904,7 +904,7 @@ vendor/lib64/libmtkcam_synchelper.so
 vendor/lib64/libmtkcam_ulog.so
 vendor/lib64/libmtkcam_vsync_util.so
 vendor/lib64/libmtkisp_metadata.so
-vendor/lib64/libsdk_sr.so
+vendor/lib64/libsdk_sr.so|cfa03774ad5cb3329fe112d558fc19050386c167
 vendor/lib64/libstereoinfoaccessor_vsdof.so
 vendor/lib64/libvideofilter_only.so
 vendor/lib64/libvidhance.so
@@ -953,9 +953,9 @@ vendor/lib64/libcameracustom.so|d22b4402c584882a6e5b052e7a879e2661d70db8
 vendor/lib64/libcameracustom_all_sensor_modules.so|f0b565ecda72cbb6bb9fafc250390f950b92455a
 
 # Libutils
-system/lib64/libutils.so:vendor/lib64/libutils_mtk.so;FIX_SONAME
+system/lib64/libutils.so:vendor/lib64/libutils_mtk.so;FIX_SONAME|579d411e41b213380ea17b404eb73fa43feea431
 
-vendor/lib64/libmialgoengine.so|3d1d68049250a6c212504e2bb1cf36cf77fa3faa
+vendor/lib64/libmialgoengine.so|49fd26b286b05abe02d690dc190bd92639dd0c0e
 vendor/lib64/libmtkcam.logicalmodule.so|733f5f7227c7e0147a0530a6df9baa3a86be8893
 vendor/lib64/libmtkcam_3rdparty.customer.so|bd200b980512b6a4e95a28322bfaacc9ff1a01a9
 vendor/lib64/libmtkcam_3rdparty.mtk.so|43ad23490dc5d864f30c8e6396f1a7c232bdf227
